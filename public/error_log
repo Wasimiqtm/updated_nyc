@@ -1,0 +1,198 @@
+[26-May-2023 08:41:11 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[26-May-2023 08:41:11 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 885
+[26-May-2023 08:41:11 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[26-May-2023 08:41:11 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 885
+[26-May-2023 04:41:11 America/New_York] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make()
+#5 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make()
+#10 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[26-May-2023 09:31:40 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[26-May-2023 09:31:40 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 885
+[26-May-2023 09:31:40 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[26-May-2023 09:31:40 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 885
+[26-May-2023 05:31:40 America/New_York] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make()
+#5 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make()
+#10 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[26-May-2023 09:53:09 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[26-May-2023 09:53:09 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 885
+[26-May-2023 09:53:09 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[26-May-2023 09:53:09 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 885
+[26-May-2023 05:53:09 America/New_York] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make()
+#5 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make()
+#10 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[26-May-2023 09:53:15 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[26-May-2023 09:53:15 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 885
+[26-May-2023 09:53:15 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[26-May-2023 09:53:15 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 885
+[26-May-2023 05:53:15 America/New_York] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make()
+#5 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make()
+#10 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[26-May-2023 10:01:23 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[26-May-2023 10:01:23 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 885
+[26-May-2023 10:01:23 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[26-May-2023 10:01:23 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 885
+[26-May-2023 06:01:23 America/New_York] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make()
+#5 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make()
+#10 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[26-May-2023 10:37:02 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[26-May-2023 10:37:02 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 885
+[26-May-2023 10:37:02 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[26-May-2023 10:37:02 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 885
+[26-May-2023 06:37:02 America/New_York] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make()
+#5 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make()
+#10 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[26-May-2023 10:44:25 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[26-May-2023 10:44:25 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 885
+[26-May-2023 10:44:25 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[26-May-2023 10:44:25 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 885
+[26-May-2023 06:44:25 America/New_York] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make()
+#5 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make()
+#10 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[26-May-2023 10:48:41 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[26-May-2023 10:48:41 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 885
+[26-May-2023 10:48:41 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[26-May-2023 10:48:41 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 885
+[26-May-2023 06:48:41 America/New_York] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make()
+#5 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make()
+#10 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[26-May-2023 10:49:41 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[26-May-2023 10:49:41 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 885
+[26-May-2023 10:49:41 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811
+[26-May-2023 10:49:41 UTC] PHP Deprecated:  Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 885
+[26-May-2023 06:49:41 America/New_York] PHP Fatal error:  Uncaught ErrorException: Method ReflectionParameter::getClass() is deprecated in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php:811
+Stack trace:
+#0 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(811): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(780): Illuminate\Container\Container->resolveDependencies()
+#2 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#3 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#4 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make()
+#5 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make()
+#6 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate\Container\Container->Illuminate\Container\{closure}()
+#7 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build()
+#8 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve()
+#9 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make()
+#10 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(159): Illuminate\Foundation\Application->make()
+#11 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(112): Illuminate\Foundation\Bootstrap\HandleExceptions->getExceptionHandler()
+#12 /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(89): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#13 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 {main}
+  thrown in /home/xrd1jdypkk7o/public_html/nycblackcarservice.com/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 811

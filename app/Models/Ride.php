@@ -1,0 +1,61 @@
+<?php
+
+
+
+namespace App\Models;
+
+
+
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Builder;
+
+
+class Ride extends Model
+
+{
+
+	protected $table = 'rides';
+
+	
+    public function rider()
+    {
+        return $this->belongsTo(\App\User::class,'rider_id');
+    }
+
+    public function driver()
+    {
+        return $this->belongsTo(\App\User::class,'driver_id');
+    }
+
+    public function category()
+    {
+        return $this->belongsTo(Categories::class,'category_id');
+    }
+
+    public function ride_status()
+    {
+        return $this->hasMany(RideStatus::class,'ride_id');
+    }
+
+    public function ride_bill()
+    {
+        return $this->hasOne(RideBill::class,'ride_id');
+    }
+
+    public function ratings()
+    {
+        return $this->hasMany(Rating::class,'ride_id');
+    }
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array
+     */
+    protected $fillable = ['rider_id','driver_id','category_id','pickup_lat','pickup_lon','dropoff_lat','dropoff_lon','is_meet_greet','status'];
+
+    //protected $hidden = ['created_at','updated_at'];
+    
+    
+
+}
+
