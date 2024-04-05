@@ -108,6 +108,13 @@ class RideController extends Controller
 
     public function timeFormatted($timeString)
     {
+        if($timeString)
+        {
+            return $timeString . ":00";
+        }
+        return $timeString;
+
+
         if($timeString) {
             preg_match('/(\d+)\s+(AM|PM)\s+:\s+(\d+)/', $timeString, $matches);
             $hour = (int)$matches[1];
