@@ -238,7 +238,6 @@
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary btn-lg" data-dismiss="modal">Close</button>
                         <button id="card-button" class="btn btn-success btn-lg button-credit-card">Pay ${{$ride['charges']}}</button>
-
                     </div>
                 </div>
             </div>
@@ -251,156 +250,53 @@
             <input type="hidden" name="amount" id="amount" value="{{($ride['charges']*100)}}" />
         </form>
     </main>
-@endsection
 
+        @endsection
 
+        <script src="{{asset('assets/js/vendors/jquery-3.6.0.min.js')}}"></script>
+        <script src="{{asset('assets/js/vendors/bootstrap.bundle.min.js')}}"></script>
+        <script src="https://sandbox.web.squarecdn.com/v1/square.js"></script>
 
-<script src="{{asset('assets/js/vendors/jquery-3.6.0.min.js')}}"></script>
-<script src="{{asset('assets/js/vendors/bootstrap.bundle.min.js')}}"></script>
-    {{-- sandbox --}}
-     <script src="https://sandbox.web.squarecdn.com/v1/square.js"></script>
-    {{-- production --}}
-{{--    <script src="https://web.squarecdn.com/v1/square.js"></script>--}}
+        <script type="text/javascript">
+            jQuery(document).ready(function(){
+                jQuery(".pay_now").click(function(){
+                    jQuery("#exampleModal").modal("show");
+                });
 
-      <!-- Configure the Web Payments SDK and Card payment method -->
-      <script type="text/javascript">
-
-          jQuery(document).ready(function(){
-              jQuery(".pay_now").click(function(){
-                  jQuery("#exampleModal").modal("show");
-              });
-
-              // Attach the main function to the modal's shown.bs.modal event
-              jQuery("#exampleModal").on('shown.bs.modal', function () {
-                  main(); // Call the main function after the modal is shown
-              });
-          });
-        async function main() {
-            // const appId = 'sandbox-sq0idb-bBUzTOCxs4mveGJHj-9h2A'; //sandbox
-            const appId = 'sandbox-sq0idb-zDR92CA8Fs0Uqyo_vCPYhw';
-            const payments = Square.payments(appId, 'en');
-            const card = await payments.card();
-            await card.attach('#card-container');
-
-          async function eventHandler(event) {
-            event.preventDefault();
-
-            try {
-              const result = await card.tokenize();
-              if (result.status === 'OK') {
-
-                var nonceField = document.getElementById('card-nonce');
-                nonceField.value = result.token;
-
-                // Submit the form
-                document.getElementById('paymentDetails').submit();
-
-                //console.log(`Payment token is ${result.token}`);
-              }
-            } catch (e) {
-              console.error(e);
-            }
-          };
-
-        const cardButton = document.getElementById('card-button');
-            cardButton.addEventListener('click', eventHandler);
-        }
-
-      </script>
-
-   {{-- <script type="text/javascript" src="https://js.squareupsandbox.com/v2/paymentform"></script> --}}
-      {{-- <script type="text/javascript" src="https://js.squareup.com/v2/paymentform"></script> --}}
-    {{-- <script type="text/javascript">
-        console.log('Square Payment Form Starting');
-        var sqPaymentForm = new SqPaymentForm({
-
-            // Replace this value with your application's ID (available from the merchant dashboard).
-            // If you're just testing things out, replace this with your _Sandbox_ application ID,
-            // which is also available there.
-            applicationId: 'sq0idp-J0ZAvTr9dkEQuMOpsHEdWw',
-            //applicationId: 'sandbox-sq0idb-bBUzTOCxs4mveGJHj-9h2A',
-            inputClass: 'sq-input',
-            autoBuild: false,
-            cardNumber: {
-                elementId: 'sq-card-number',
-                placeholder: "0000 0000 0000 0000"
-            },
-            cvv: {
-                elementId: 'sq-cvv',
-                placeholder: 'CVV'
-            },
-            expirationDate: {
-                elementId: 'sq-expiration-date',
-                placeholder: 'MM/YY'
-            },
-            postalCode: {
-                elementId: 'sq-postal-code',
-                placeholder: 'Postal Code'
-            },
-            inputStyles: [
-
-                // Because this object provides no value for mediaMaxWidth or mediaMinWidth,
-                // these styles apply for screens of all sizes, unless overridden by another
-                // input style below.
-                {
-                    fontSize: '14px',
-                    padding: '3px'
-                },
-
-                // These styles are applied to inputs ONLY when the screen width is 400px
-                // or smaller. Note that because it doesn't specify a value for padding,
-                // the padding value in the previous object is preserved.
-                {
-                    mediaMaxWidth: '400px',
-                    fontSize: '18px',
-                }
-            ],
-            callbacks: {
-
-                cardNonceResponseReceived: function(errors, nonce, cardData) {
-
-                    if (errors) {
-                        console.log('Square Payment Form error');
-                        var errorDiv = document.getElementById('errors');
-                        errorDiv.innerHTML = "";
-                        errors.forEach(function(error) {
-                            var p = document.createElement('p');
-                            p.innerHTML = error.message;
-                            errorDiv.appendChild(p);
-                        });
-                    } else {
-                        console.log('Square Payment Form Completed');
-                        var nonceField = document.getElementById('card-nonce');
-                        nonceField.value = nonce;
-
-                        // Submit the form
-                        document.getElementById('paymentDetails').submit();
-                    }
-                },
-                unsupportedBrowserDetected: function() {
-                    console.log('Square Payment Form unsupportedBrowserDetected');
-                    // Alert the buyer that their browser is not supported
-                }
-            }
-        });
-        sqPaymentForm.build();
-        function onGetCardNonce(event) {
-            event.preventDefault();
-            sqPaymentForm.requestCardNonce();
-        }
-    </script> --}}
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-
-        jQuery(document).ready(function(){
-            jQuery(".pay_now").click(function(){
-                jQuery("#exampleModal").modal("show");
+                // Attach the main function to the modal's shown.bs.modal event
+                jQuery("#exampleModal").on('shown.bs.modal', function () {
+                    main(); // Call the main function after the modal is shown
+                });
             });
-        });
 
-    </script>
+            async function main() {
+                const appId = 'sandbox-sq0idb-zDR92CA8Fs0Uqyo_vCPYhw';
+                const payments = Square.payments(appId, 'en');
+                const card = await payments.card();
+                await card.attach('#card-container');
 
+                async function eventHandler(event) {
+                    event.preventDefault();
 
+                    try {
+                        const result = await card.tokenize();
+                        if (result.status === 'OK') {
+                            var nonceField = document.getElementById('card-nonce');
+                            nonceField.value = result.token;
 
+                            // Submit the form
+                            document.getElementById('paymentDetails').submit();
+                        }
+                    } catch (e) {
+                        console.error(e);
+                    }
+                };
+
+                const cardButton = document.getElementById('card-button');
+                cardButton.addEventListener('click', eventHandler);
+            }
+        </script>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
