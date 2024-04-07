@@ -109,7 +109,7 @@ Every Ultra Luxury Sedan, Luxury Sedan, Executive Sedan, Luxury SUVs, Sprinter V
                       <div class="search-inputs">
                         <label class="text-14 color-grey">Pick Up Time</label>
                         {{--<input class="search-input" type="time" placeholder="" >--}}
-                        <input class="search-input timepicker" name="pickup_time_hour" type="time" placeholder="">
+                        <input class="search-input" name="pickup_time_hour" type="time" placeholder="">
                       </div>
                     </div>
                     <div class="search-item search-button mb-0">
@@ -168,7 +168,7 @@ Every Ultra Luxury Sedan, Luxury Sedan, Executive Sedan, Luxury SUVs, Sprinter V
                         <div class="search-icon"> <span class="item-icon icon-time"> </span></div>
                         <div class="search-inputs">
                           <label class="text-14 color-grey">Pick Up Time</label>
-                          <input class="search-input timepicker" name="pickup_time_hour" type="time" placeholder="">
+                          <input class="search-input" name="pickup_time_hour" type="time" placeholder="">
                         </div>
                       </div>
                         <input type="hidden" name="form_type" value="hourly" />
@@ -212,7 +212,7 @@ Every Ultra Luxury Sedan, Luxury Sedan, Executive Sedan, Luxury SUVs, Sprinter V
                       <div class="search-icon"> <span class="item-icon icon-time"> </span></div>
                       <div class="search-inputs">
                         <label class="text-14 color-grey">Pick Up Time</label>
-                        <input class="search-input timepicker" name="pickup_time_hour" type="time" placeholder="">
+                        <input class="search-input" name="pickup_time_hour" type="time" placeholder="">
                       </div>
                     </div>
                     <div class="search-item search-date">
@@ -244,7 +244,7 @@ Every Ultra Luxury Sedan, Luxury Sedan, Executive Sedan, Luxury SUVs, Sprinter V
                       <div class="search-icon"> <span class="item-icon icon-time"> </span></div>
                       <div class="search-inputs">
                         <label class="text-14 color-grey">Pick Up Time</label>
-                        <input class="search-input timepicker" name="round_pickup_time_hour" type="time" placeholder="">
+                        <input class="search-input" name="round_pickup_time_hour" type="time" placeholder="">
                       </div>
                     </div>
                       <input type="hidden" name="form_type" value="flat" />
