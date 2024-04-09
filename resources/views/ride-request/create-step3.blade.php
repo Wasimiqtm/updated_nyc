@@ -266,16 +266,14 @@
       <script type="text/javascript">
 
           jQuery(document).ready(function(){
+              main(); // Initialize card fields when the page loads
+
               jQuery(".pay_now").click(function(){
                   jQuery("#exampleModal").modal("show");
               });
-
-              // Attach the main function to the modal's shown.bs.modal event
-              jQuery("#exampleModal").on('shown.bs.modal', function () {
-                  main(); // Call the main function after the modal is shown
-              });
           });
-        async function main() {
+
+          async function main() {
             // const appId = 'sandbox-sq0idb-bBUzTOCxs4mveGJHj-9h2A'; //sandbox
             const appId = 'sandbox-sq0idb-zDR92CA8Fs0Uqyo_vCPYhw';
             const payments = Square.payments(appId, 'en');
