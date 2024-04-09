@@ -98,12 +98,6 @@
                                         <div class="form-group">
                                             <p class="mb-2">Number of Passangers</p>
                                             <select name="no_of_passengers" id="" class="form-control num-passengers">
-                                                <option value="1">1</option>
-                                                <option value="2">2</option>
-                                                <option value="3">3</option>
-                                                <option value="4">4</option>
-                                                <option value="5">5</option>
-                                                <option value="6">6</option>
                                             </select>
 
                                         </div>
@@ -111,14 +105,7 @@
                                     <div class="col-lg-6">
                                         <div class="form-group">
                                             <p class="mb-2">Number of Bages</p>
-                                            <select name="no_of_bags" id="" class="form-control">
-
-                                                <option value="1">1</option>
-                                                <option value="2">2</option>
-                                                <option value="3">3</option>
-                                                <option value="4">4</option>
-                                                <option value="5">5</option>
-                                                <option value="6">6</option>
+                                            <select name="no_of_bags" id="" class="form-control num-bags">
                                             </select>
                                         </div>
                                     </div>
@@ -234,22 +221,22 @@
             jQuery('#cat_price').val(jQuery(this).attr('data-price'));
 
             // Update num-bags dropdown
-            /*jQuery('.num-bags').val(jQuery(this).attr('data-bags')).trigger('change');
+            jQuery('.num-bags').val(jQuery(this).attr('data-bags')).trigger('change');
             var bagsCount = jQuery(this).attr('data-bags');
             var bagOptions = '';
             for (var i = 1; i <= bagsCount; i++) {
                 bagOptions += '<option value="'+i+'">'+i+'</option>';
             }
-            jQuery('.num-bags').html(bagOptions);*/
+            jQuery('.num-bags').html(bagOptions);
 
             // Update num-passengers dropdown
-            /*jQuery('.num-passengers').val(jQuery(this).attr('data-passengers')).trigger('change');
+            jQuery('.num-passengers').val(jQuery(this).attr('data-passengers')).trigger('change');
             var passCount = jQuery(this).attr('data-passengers');
             var passOptions = '';
             for (var j = 1; j <= passCount; j++) {
                 passOptions += '<option value="'+j+'">'+j+'</option>';
             }
-            jQuery('.num-passengers').html(passOptions);*/
+            jQuery('.num-passengers').html(passOptions);
         });
     });
 
