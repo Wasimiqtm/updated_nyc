@@ -96,20 +96,37 @@ Every Ultra Luxury Sedan, Luxury Sedan, Executive Sedan, Luxury SUVs, Sprinter V
                         {!! Form::hidden('lng2', null, ['id' => "lng2"]) !!}
                       </div>
                     </div>
+                          <div class="airport_data_OneWay" style="display: none">
+                            <input class="form-control pac-target-input" placeholder="Enter Flight Name" id="flight_name"  name="flight_name" type="text" >
+                            <input class="form-control pac-target-input" placeholder="Enter Flight Number" id="flight_number"  name="flight_number" type="text" >
+                            <input class="form-control pac-target-input" placeholder="terminal" id="terminal"  name="terminal" type="text" >
+                          </div>
+                          <div class="select-wrapper" style="display:none;">
+                            <i class="fa fa-angle-down"></i>
+                            <select name="return-journey">
+                              <option value="false">One Way</option>
+                              <option value="true">Return</option>
+                            </select>
+                          </div>
                     <div class="search-item search-date">
                       <div class="search-icon"> <span class="item-icon icon-date"> </span></div>
                       <div class="search-inputs">
                         <label class="text-14 color-grey">Date</label>
                         {{--<input class="search-input datepicker-2" type="text" placeholder="" value="Thu, Oct 06, 2022">--}}
-                        <input class="search-input datepicker pickup-date1" name="pickup_date" type="text" placeholder="" value="">
+                        <input class="search-input datepicker pickup-date1" name="pickup_date" type="text" placeholder="" value="" required>
                       </div>
                     </div>
+                          @if ($errors->has('pickup_date'))
+                            <span class="help-block with-errors">
+                                                {{ $errors->first('pickup_date') }}
+                                            </span>
+                          @endif
                     <div class="search-item search-time">
                       <div class="search-icon"> <span class="item-icon icon-time"> </span></div>
                       <div class="search-inputs">
                         <label class="text-14 color-grey">Pick Up Time</label>
                         {{--<input class="search-input" type="time" placeholder="" >--}}
-                        <input class="search-input" name="pickup_time_hour" type="time" placeholder="">
+                        <input class="search-input" name="pickup_time_hour" type="time" placeholder="" required>
                       </div>
                     </div>
                     <div class="search-item search-button mb-0">
@@ -155,12 +172,19 @@ Every Ultra Luxury Sedan, Luxury Sedan, Executive Sedan, Luxury SUVs, Sprinter V
                           {!! Form::hidden('lng2', null, ['id' => "lng2"]) !!}
                         </div>
                       </div>
+
+                        <div class="airport_data_Hourly" style="display: none">
+                          <input class="form-control pac-target-input" placeholder="Enter Flight Name" id="flight_name"  name="flight_name" type="text" >
+                          <input class="form-control pac-target-input" placeholder="Enter Flight Number" id="flight_number"  name="flight_number" type="text" >
+                          <input class="form-control pac-target-input" placeholder="terminal" id="terminal"  name="terminal" type="text" >
+                        </div>
+
                       <div class="search-item search-date">
                         <div class="search-icon"> <span class="item-icon icon-date"> </span></div>
                         <div class="search-inputs">
                           <label class="text-14 color-grey">Date</label>
 {{--                          <input class="search-input datepicker-2" type="text" placeholder="" value="Thu, Oct 06, 2022">--}}
-                          <input type="text" name="pickup_date" class="datepicker pickup-date2 search-input datepicker-2" value="" placeholder="Pick Up Date" />
+                          <input type="text" name="pickup_date" class="datepicker pickup-date2 search-input datepicker-2" value="" placeholder="Pick Up Date" required />
 
                         </div>
                       </div>
@@ -168,7 +192,7 @@ Every Ultra Luxury Sedan, Luxury Sedan, Executive Sedan, Luxury SUVs, Sprinter V
                         <div class="search-icon"> <span class="item-icon icon-time"> </span></div>
                         <div class="search-inputs">
                           <label class="text-14 color-grey">Pick Up Time</label>
-                          <input class="search-input" name="pickup_time_hour" type="time" placeholder="">
+                          <input class="search-input" name="pickup_time_hour" type="time" placeholder="" required>
                         </div>
                       </div>
                         <input type="hidden" name="form_type" value="hourly" />
@@ -191,6 +215,13 @@ Every Ultra Luxury Sedan, Luxury Sedan, Executive Sedan, Luxury SUVs, Sprinter V
                         {!! Form::hidden('lat', null, ['id' => "lat"]) !!}
                         {!! Form::hidden('lng', null, ['id' => "lng"]) !!}
                       </div>
+
+                          <div class="airport_data_Flat" style="display: none">
+                            <input class="form-control pac-target-input" placeholder="Enter Flight Name" id="flight_name"  name="flight_name" type="text" >
+                            <input class="form-control pac-target-input" placeholder="Enter Flight Number" id="flight_number"  name="flight_number" type="text" >
+                            <input class="form-control pac-target-input" placeholder="terminal" id="terminal"  name="terminal" type="text" >
+                          </div>
+
                     </div>
                        <div class="search-item search-date">
                       <div class="search-icon"> <span class="item-icon icon-date"> </span></div>
@@ -205,14 +236,14 @@ Every Ultra Luxury Sedan, Luxury Sedan, Executive Sedan, Luxury SUVs, Sprinter V
                       <div class="search-inputs">
                         <label class="text-14 color-grey">Date</label>
 {{--                        <input class="search-input datepicker-2" type="text" placeholder="" value="Thu, Oct 06, 2022">--}}
-                        <input class="search-input datepicker datepicker-2 pickup-date1" name="pickup_date" type="text" placeholder="Pick Up Date" value="">
+                        <input class="search-input datepicker datepicker-2 pickup-date1" name="pickup_date" type="text" placeholder="Pick Up Date" value="" required>
                       </div>
                     </div>
                     <div class="search-item search-time">
                       <div class="search-icon"> <span class="item-icon icon-time"> </span></div>
                       <div class="search-inputs">
                         <label class="text-14 color-grey">Pick Up Time</label>
-                        <input class="search-input" name="pickup_time_hour" type="time" placeholder="">
+                        <input class="search-input" name="pickup_time_hour" type="time" placeholder="" required>
                       </div>
                     </div>
                     <div class="search-item search-date">
@@ -231,12 +262,17 @@ Every Ultra Luxury Sedan, Luxury Sedan, Executive Sedan, Luxury SUVs, Sprinter V
                         {!! Form::hidden('lng4', null, ['id' => "lng4"]) !!}
                       </div>
                     </div>
+                      <div class="airport_data_Flat1" style="display: none">
+                        <input class="form-control pac-target-input" placeholder="Enter Flight Name" id="flight_name1"  name="flight_name1" type="text" >
+                        <input class="form-control pac-target-input" placeholder="Enter Flight Number" id="flight_number1"  name="flight_number1" type="text" >
+                        <input class="form-control pac-target-input" placeholder="terminal" id="terminal1"  name="terminal1" type="text" >
+                      </div>
                     <div class="search-item search-date">
                       <div class="search-icon"> <span class="item-icon icon-date"> </span></div>
                       <div class="search-inputs">
                         <label class="text-14 color-grey">Date</label>
                         {{--                        <input class="search-input datepicker-2" type="text" placeholder="" value="Thu, Oct 06, 2022">--}}
-                        <input class="search-input datepicker datepicker-2 pickup-date1" name="round_pickup_date" type="text" placeholder="Pick Up Date" value="">
+                        <input class="search-input datepicker datepicker-2 pickup-date1" name="round_pickup_date" type="text" placeholder="Pick Up Date" value="" required>
                       </div>
                     </div>
 
@@ -244,7 +280,7 @@ Every Ultra Luxury Sedan, Luxury Sedan, Executive Sedan, Luxury SUVs, Sprinter V
                       <div class="search-icon"> <span class="item-icon icon-time"> </span></div>
                       <div class="search-inputs">
                         <label class="text-14 color-grey">Pick Up Time</label>
-                        <input class="search-input" name="round_pickup_time_hour" type="time" placeholder="">
+                        <input class="search-input" name="round_pickup_time_hour" type="time" placeholder="" required>
                       </div>
                     </div>
                       <input type="hidden" name="form_type" value="flat" />
@@ -865,14 +901,20 @@ Every Ultra Luxury Sedan, Luxury Sedan, Executive Sedan, Luxury SUVs, Sprinter V
       google.maps.event.addListener(autocomplete, 'place_changed', function() {console.log(1);
         var place = autocomplete.getPlace();
         var address = place.formatted_address;
+        if(place.name.includes("Airport")){
+
+
+          jQuery(".airport_data_OneWay").show();
+          jQuery("#flight_name").attr('required','required')
+          jQuery("#flight_number").attr('required','required')
+        }else{
+          jQuery(".airport_data_OneWay").hide();
+          jQuery("#flight_name").removeAttr('required')
+          jQuery("#flight_number").removeAttr('required')
+        }
 
         document.getElementById("formOneWay").querySelector("#lat").value = place.geometry.location.lat();
         document.getElementById("formOneWay").querySelector("#lng").value = place.geometry.location.lng();
-        /*document.getElementById('lat').value = place.geometry.location.lat();
-        document.getElementById('lng').value = place.geometry.location.lng();*/
-        /*jQuery('#formOneWay > #lat2').val(place2.geometry.location.lat());
-        jQuery('#formOneWay > #lng2').val(place2.geometry.location.lng());*/
-
       });
 
       // var autocomplete2 = new google.maps.places.Autocomplete(jQuery("#formOneWay > #dropoffaddress1")[0], {});
@@ -886,8 +928,6 @@ Every Ultra Luxury Sedan, Luxury Sedan, Executive Sedan, Luxury SUVs, Sprinter V
         var place2 = autocomplete2.getPlace();
         var address2 = place2.formatted_address;
 
-        /*jQuery('#formOneWay > #lat2').val(place2.geometry.location.lat());
-        jQuery('#formOneWay > #lng2').val(place2.geometry.location.lng());*/
         document.getElementById("formOneWay").querySelector("#lat2").value = place2.geometry.location.lat();
         document.getElementById("formOneWay").querySelector("#lng2").value = place2.geometry.location.lng();
 
