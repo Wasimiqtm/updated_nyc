@@ -274,8 +274,8 @@
           });
 
           async function main() {
-            // const appId = 'sandbox-sq0idb-bBUzTOCxs4mveGJHj-9h2A'; //sandbox
-            const appId = 'sandbox-sq0idb-zDR92CA8Fs0Uqyo_vCPYhw';
+            // const appId = 'sandbox-sq0idb-zDR92CA8Fs0Uqyo_vCPYhw'; //sandbox
+            const appId = 'sq0idp-Qyl6hkiuP9mkSHi0wxULfQ'; //production
             const payments = Square.payments(appId, 'en');
             const card = await payments.card();
             await card.attach('#card-container');

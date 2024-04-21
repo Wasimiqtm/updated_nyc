@@ -957,10 +957,10 @@ class ApiController extends Controller
            
         if(request()->amount >0){
             $client = new SquareClient([ 
-                 'accessToken' => 'EAAAlwlIjXOFBrIlE-R6Vle2mFPlBubI3O_uIf1AlR9Nva2wwqG31123Dnc_uuce', //sandbox
-                 'environment' => Environment::SANDBOX,
-                //'accessToken' => 'EAAAEEhGrEwD5xHQC9nfgPXzou-ps0Gf9WriT6p7uKwfWAfDdfrw983-nPWbJbPW',
-                //'environment' => Environment::PRODUCTION,
+                 /*'accessToken' => 'EAAAlwlIjXOFBrIlE-R6Vle2mFPlBubI3O_uIf1AlR9Nva2wwqG31123Dnc_uuce', //sandbox
+                 'environment' => Environment::SANDBOX,*/
+                'accessToken' => 'EAAAltgRngGFydi40MOXn1lZyiQH-HbuUn5eVS8aelJdHaCsxp6c5xTumRDWqyZm',
+                'environment' => Environment::PRODUCTION,
             ]);
             $finalAmount = (request()->amount);
 
