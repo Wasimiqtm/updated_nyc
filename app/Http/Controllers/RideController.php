@@ -144,8 +144,9 @@ class RideController extends Controller
         $this->validate($request, [
             'pickup_location'   => 'required',
             'dropoff_location'  => 'required',
-            'pickup_date'       => 'required',
+            'pickup_date'       => 'required|date|after_or_equal:today',
             'pickup_time_hour'  => 'required',
+            'round_pickup_date' => 'sometimes|nullable|date|after_or_equal:today',
         ]);
 
         $input['pickup_lat'] = $request->lat;
